@@ -1,12 +1,14 @@
 <?php
 
+use Intervention\Image\ImageManager;
+
 class Project
 {
     public $rootDir;
 
     public function __construct()
     {
-        $this->rootDir = __DIR__ . '/../../projects/';
+        $this->rootDir = __DIR__ . '/../../public/projects/';
     }
 
     public function getAllProjects()
@@ -50,6 +52,9 @@ class Project
                 {
                     $zip->extractTo($dir);
                     $zip->close();
+
+                    // We don't want the ZIP file to exist anymore, delete it
+                    unlink($zipPath);
                 }
                 else
                 {
@@ -63,6 +68,8 @@ class Project
 
     public function getSingleInstance($slug)
     {
+        $manager = new ImageManager(array ('driver' => 'GD'));
+
         $formats = ['jpg', 'png', 'gif'];
 
         $images = [];
@@ -72,6 +79,7 @@ class Project
         foreach ($files as $file)
         {
             $fullPath = $myDir . $file;
+            $fullUrl = URL::to('projects/' . $slug . '/' . $file);
 
             if ( ! file_exists($fullPath) || is_dir($fullPath))
             {
@@ -80,14 +88,39 @@ class Project
 
             $bits = explode('.', $file);
             $fileFormat = end($bits);
+
             if ( ! in_array($fileFormat, $formats))
             {
                 continue;
             }
 
+            // Create thumbnails if they don't exist yet
+            $thumbNailPath = $myDir . 'small/' . $file;
+            $gallerySizePath = $myDir . 'large/' . $file;
+
+            if ( ! file_exists($thumbNailPath))
+            {
+                $image = $manager->make($fullPath)->resize(300, null, function ($constraint)
+                {
+                    $constraint->aspectRatio();
+                });
+
+                $image->save($thumbNailPath, 80);
+            }
+            if ( ! file_exists($gallerySizePath))
+            {
+                $image = $manager->make($fullPath)->resize(1280, null, function ($constraint)
+                {
+                    $constraint->aspectRatio();
+                });
+
+                $image->save($gallerySizePath, 90);
+            }
+
             $images[] = [
                 'fullPath' => $fullPath,
-                'filename' => $file
+                'filename' => $file,
+                'fullUrl' => $fullUrl
             ];
         }
 
