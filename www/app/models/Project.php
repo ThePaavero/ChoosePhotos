@@ -2,8 +2,9 @@
 
 use Intervention\Image\ImageManager;
 
-class Project
+class Project extends Eloquent
 {
+    protected $table = 'photos';
     public $rootDir;
 
     public function __construct()
@@ -131,5 +132,38 @@ class Project
         }
 
         return $images;
+    }
+
+    public function updatePictureStatus($projectSlug, $imageFilename)
+    {
+        $targetFile = $this->rootDir . $projectSlug . '/' . $imageFilename;
+
+        $fileSpecificHash = md5($targetFile);
+
+        // Do we have a database row?
+        $row = self::where('hash', '=', $fileSpecificHash)->get()->toArray()[0];
+
+        // Yes, get our current status
+        if ( ! empty($row))
+        {
+            $accepted = $row['accepted'];
+
+            // Flip it
+            $newStatus = ! $accepted;
+
+            $instance = new self;
+            $instance->accepted = $newStatus;
+            $instance->save();
+        }
+        else
+        {
+            // No? Create one with a default status of false
+            $instance = new self;
+            $instance->hash = $fileSpecificHash;
+            $instance->accepted = false;
+            $instance->save();
+        }
+
+        return true;
     }
 }

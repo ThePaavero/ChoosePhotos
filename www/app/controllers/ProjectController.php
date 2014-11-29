@@ -2,13 +2,20 @@
 
 class ProjectController extends \BaseController
 {
+    private $project;
+
+    public function __construct()
+    {
+        $this->project = new Project;
+    }
+
+
     public function project($slug)
     {
-        $project = new Project;
         $data = [
             'slug' => $slug,
             'title' => ucfirst($slug),
-            'images' => $project->getSingleInstance($slug)
+            'images' => $this->project->getSingleInstance($slug)
         ];
 
         return View::make('maintemplate', [
@@ -23,7 +30,11 @@ class ProjectController extends \BaseController
         $projectSlug = Input::get('project_slug');
         $imageFilename = Input::get('filename');
 
-//        die($imageFilename);
-        return 'ok';
+        if ($this->project->updatePictureStatus($projectSlug, $imageFilename))
+        {
+            return 'ok';
+        }
+
+        return 'error';
     }
 }
