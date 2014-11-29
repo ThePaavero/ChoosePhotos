@@ -121,13 +121,15 @@ class Project extends Eloquent
                 $image->save($gallerySizePath, 90);
             }
 
+            $photoHash = $myDir . $file;
+
             $images[] = [
                 'fullPath' => $fullPath,
                 'filename' => $file,
                 'fullUrl' => $fullUrl,
                 'thumbnail' => $thumbNailUrl,
                 'large' => $gallerySizeUrl,
-                'accepted' => 'no' // TODO
+                'accepted' => $this->getAcceptedStatusForPhoto($photoHash)
             ];
         }
 
@@ -164,5 +166,12 @@ class Project extends Eloquent
         $instance->save();
 
         return true;
+    }
+
+    public function getAcceptedStatusForPhoto($photoHash)
+    {
+    	$accepted = true; // Default
+
+        return $accepted ? 'yes' : 'no';
     }
 }
