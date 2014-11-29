@@ -49,10 +49,26 @@ h4 {
       width: 300px;
       height: 200px;
       overflow: hidden;
+      padding: 5px;
+      position: relative;
+
+//      &.accepted {
+//        background: #25d707;
+//      }
 
       img {
         max-width: 100%;
         max-height: 100%;
+      }
+
+      .selected-icon {
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        width: 20px;
+        height: 20px;
+        background: #25d707;
+        z-index: 2;
       }
     }
 

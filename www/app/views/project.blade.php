@@ -5,7 +5,7 @@
 <ul class='gallery'>
     @foreach($data['images'] as $image)
     <li>
-        <div class='thumbnail-wrapper'>
+        <div class='thumbnail-wrapper' data-accepted='{{ $image['accepted'] }}'>
             <img src='{{ $image['thumbnail'] }}' alt=''/>
         </div><!-- thumbnail-wrapper -->
 

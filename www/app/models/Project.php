@@ -125,7 +125,8 @@ class Project
                 'filename' => $file,
                 'fullUrl' => $fullUrl,
                 'thumbnail' => $thumbNailUrl,
-                'large' => $gallerySizeUrl
+                'large' => $gallerySizeUrl,
+                'accepted' => 'yes' // TODO
             ];
         }
 
