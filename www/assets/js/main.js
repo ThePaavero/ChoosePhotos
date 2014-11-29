@@ -14,8 +14,8 @@ $(function () {
             var currentStatus = wrapper.data('accepted') === 'yes';
             if (currentStatus) {
                 wrapper.addClass('accepted');
-                wrapper.prepend('<div class="selected-icon"></div>');
                 var container = wrapper.parent();
+                container.prepend('<div class="selected-icon"></div>');
 
                 // Remove "Accept" button
                 container.find('.accept-link').remove();
