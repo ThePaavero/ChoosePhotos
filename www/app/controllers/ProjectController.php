@@ -16,4 +16,12 @@ class ProjectController extends \BaseController
             'data' => $data
         ]);
     }
+
+    public function updatePictureStatus()
+    {
+        $imageFilename = Input::get('filename');
+
+//        die($imageFilename);
+        return 'ok';
+    }
 }

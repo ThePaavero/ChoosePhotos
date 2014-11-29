@@ -6,56 +6,86 @@ $(function () {
     var links = $('ul li a.accept-link, ul li a.reject-link');
 
     var refreshImagePropertiesByStatus = function () {
+
         wrappers.each(function () {
+
             var wrapper = $(this);
             var currentStatus = wrapper.data('accepted') === 'yes';
             var container = wrapper.parent();
+
             if (currentStatus) {
-                wrapper.addClass('accepted');
-                container.find('.rejected-icon').remove();
-                container.prepend('<div class="accepted-icon"></div>');
-
-                // Remove "Accept" button
-                container.find('.accept-link').remove();
+                container.addClass('accepted');
             } else {
-                wrapper.removeClass('accepted');
-                container.find('.accepted-icon').remove();
-                container.prepend('<div class="rejected-icon"></div>');
-
-                // Remove "Reject" button
-                container.find('.reject-link').remove();
+                container.removeClass('accepted');
             }
         });
     };
 
-    var toggleImageStatus = function (e) {
-        e.preventDefault();
+    var toggleImageStatus = function (element) {
 
-        var wrapper = $(this).parent();
-        var currentStatus = wrapper.data('accepted');
+        var currentStatus = element.attr('data-accepted');
 
         if (currentStatus !== 'yes') {
-            switchStatusToAccepted(wrapper);
+            switchStatusToAccepted(element);
         } else {
-            switchStatusToRejected(wrapper);
+            switchStatusToRejected(element);
         }
     };
 
     var switchStatusToAccepted = function (wrapper) {
-        wrapper.addClass('accepted');
-        wrapper.data('accepted', 'yes');
-        console.log('ACCEPTING!');
+
+        var pictureFilename = wrapper.find('img').attr('src');
+
+        updateStatusOnServer(pictureFilename, true, function () {
+            wrapper.addClass('accepted');
+            wrapper.attr('data-accepted', 'yes');
+            console.log('Satus changed to "accepted"');
+        });
     };
 
     var switchStatusToRejected = function (wrapper) {
-        wrapper.removeClass('accepted');
-        wrapper.data('accepted', 'no');
-        console.log('REJECTING!');
+
+        var pictureFilename = wrapper.find('img').attr('src');
+
+        updateStatusOnServer(pictureFilename, false, function () {
+            wrapper.removeClass('accepted');
+            wrapper.attr('data-accepted', 'no');
+            console.log('Satus changed to "rejected"');
+        });
     };
 
     var makeImagesClickable = function () {
-        wrappers.on('click', toggleImageStatus);
-        links.on('click', toggleImageStatus);
+
+        wrappers.on('click', function (e) {
+            e.preventDefault();
+            toggleImageStatus($(this));
+        });
+
+        links.on('click', function (e) {
+            e.preventDefault();
+            toggleImageStatus($(this).parent().find('.thumbnail-wrapper'));
+        });
+    };
+
+    var updateStatusOnServer = function (pictureFilename, bool, callback) {
+
+        $.ajax({
+            type : 'POST',
+            url : _root + 'project/' + getProjectSlug() + '/update-status',
+            data : 'filename=' + pictureFilename,
+            success : function (response) {
+                if (response === 'ok') {
+                    return callback();
+                }
+
+                console.error('Something went wrong with updating this picture\'s status :(');
+            }
+        });
+    };
+
+    var getProjectSlug = function () {
+
+        return 'todo';
     };
 
     $('.fancybox').fancybox();
