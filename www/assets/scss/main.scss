@@ -61,13 +61,22 @@ h4 {
       }
     }
 
-    .selected-icon {
+    .accepted-icon {
       position: absolute;
       top: 5px;
       right: 5px;
       width: 15px;
       height: 15px;
-      background: #25d707;
+      background: #0abc15;
+      z-index: 2;
+    }
+    .rejected-icon {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      width: 15px;
+      height: 15px;
+      background: #bc4780;
       z-index: 2;
     }
 

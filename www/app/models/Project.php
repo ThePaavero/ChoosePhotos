@@ -126,7 +126,7 @@ class Project
                 'fullUrl' => $fullUrl,
                 'thumbnail' => $thumbNailUrl,
                 'large' => $gallerySizeUrl,
-                'accepted' => 'yes' // TODO
+                'accepted' => 'no' // TODO
             ];
         }
 
