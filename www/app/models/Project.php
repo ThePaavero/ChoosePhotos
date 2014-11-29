@@ -121,7 +121,7 @@ class Project extends Eloquent
                 $image->save($gallerySizePath, 90);
             }
 
-            $photoHash = $myDir . $file;
+            $photoHash = md5($this->rootDir . $slug . '/' . $file);
 
             $images[] = [
                 'fullPath' => $fullPath,
@@ -170,7 +170,17 @@ class Project extends Eloquent
 
     public function getAcceptedStatusForPhoto($photoHash)
     {
-    	$accepted = true; // Default
+        $accepted = true; // Default
+
+        // Do we have a row in our database?
+        $exists = self::where('hash', '=', $photoHash)->first();
+
+        echo $photoHash . '<br>';
+
+        if ( ! is_null($exists))
+        {
+            $accepted = $exists->accepted;
+        }
 
         return $accepted ? 'yes' : 'no';
     }

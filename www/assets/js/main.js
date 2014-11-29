@@ -2,8 +2,9 @@ $(function () {
 
     console.log('App running...');
 
-    var wrappers = $('ul li .thumbnail-wrapper');
-    var links = $('ul li a.accept-link, ul li a.reject-link');
+    var ul = $('ul');
+    var wrappers = ul.find('li .thumbnail-wrapper');
+    var links = ul.find('li a.accept-link, ul li a.reject-link');
 
     var refreshImagePropertiesByStatus = function () {
 
@@ -96,7 +97,7 @@ $(function () {
 
     var getProjectSlug = function () {
 
-        return 'todo';
+        return ul.attr('data-projectslug');
     };
 
     $('.fancybox').fancybox();
