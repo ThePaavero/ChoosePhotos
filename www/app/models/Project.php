@@ -138,7 +138,8 @@ class Project extends Eloquent
 
     public function updatePictureStatus($projectSlug, $imageFilename)
     {
-        $photoHash = md5($this->rootDir . $projectSlug . '/' . $imageFilename);
+        $hashThis= $projectSlug . '/' . $imageFilename;
+        $photoHash = md5($hashThis);
 
         // Do we have a database row?
         $rowObject = self::where('hash', '=', $photoHash)->first();
@@ -160,7 +161,7 @@ class Project extends Eloquent
         // No? Create one with a default status of false
         $instance = new self;
         $instance->hash = $photoHash;
-        $instance->accepted = false;
+        $instance->accepted = true;
         $instance->save();
 
         return true;

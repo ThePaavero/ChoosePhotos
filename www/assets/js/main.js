@@ -40,7 +40,8 @@ $(function () {
 
     var switchStatusToAccepted = function (wrapper) {
 
-        var pictureFilename = wrapper.find('img').attr('src');
+        var fileUrlSegments = wrapper.find('img').attr('src').split('/');
+        var pictureFilename = fileUrlSegments[fileUrlSegments.length - 1];
         var projectSlug = getProjectSlug();
 
         updateStatusOnServer(projectSlug, pictureFilename, true, function () {
@@ -54,7 +55,8 @@ $(function () {
 
     var switchStatusToRejected = function (wrapper) {
 
-        var pictureFilename = wrapper.find('img').attr('src');
+        var fileUrlSegments = wrapper.find('img').attr('src').split('/');
+        var pictureFilename = fileUrlSegments[fileUrlSegments.length - 1];
         var projectSlug = getProjectSlug();
 
         updateStatusOnServer(projectSlug, pictureFilename, false, function () {

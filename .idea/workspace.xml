@@ -43,8 +43,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="2147">
-              <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2185">
+              <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/www/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.1666667" vertical-offset="0" max-vertical-offset="209">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -83,8 +83,8 @@
       <file leaf-file-name="Project.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/app/models/Project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46833578" vertical-offset="2893" max-vertical-offset="3572">
-              <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.63917524" vertical-offset="2568" max-vertical-offset="3591">
+              <caret line="158" column="9" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -511,7 +511,13 @@
       <option name="project" value="LOCAL" />
       <updated>1417300948084</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="My md5() logic is fucked">
+      <created>1417301289471</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1417301289471</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -581,7 +587,8 @@
     <MESSAGE value="Works!" />
     <MESSAGE value="Boing" />
     <MESSAGE value="Closing in... (joojoo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Closing in... (joojoo)" />
+    <MESSAGE value="My md5() logic is fucked" />
+    <option name="LAST_COMMIT_MESSAGE" value="My md5() logic is fucked" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -702,14 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1666667" vertical-offset="0" max-vertical-offset="209">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/assets/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.041667" vertical-offset="689" max-vertical-offset="2299">
@@ -784,18 +783,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1666667" vertical-offset="0" max-vertical-offset="209">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="2147">
-          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2185">
+          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/models/Project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46833578" vertical-offset="2893" max-vertical-offset="3572">
-          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.63917524" vertical-offset="2568" max-vertical-offset="3591">
+          <caret line="158" column="9" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="9" />
           <folding />
         </state>
       </provider>
