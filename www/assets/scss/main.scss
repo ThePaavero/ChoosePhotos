@@ -56,15 +56,24 @@ h4 {
       }
     }
 
-    a.larger-link {
+    a {
       display: inline-block;
       padding: 5px;
       font-size: 10px;
       margin-top: 5px;
-      background: #275abc;
-      color: #fff;
       text-decoration: none;
       border-radius: 3px;
+      color: #fff;
+
+      &.larger-link {
+        background: #275abc;
+      }
+      &.accept-link {
+        background: #0abc15;
+      }
+      &.reject-link {
+        background: #bc4780;
+      }
     }
   }
 }

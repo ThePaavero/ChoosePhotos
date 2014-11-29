@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7dc9a4a-58f9-4981-a9f0-49994f42e58a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/bats_crave_attention.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/large/bats_crave_attention.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/small/bats_crave_attention.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/assets/img/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/cursorbat.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/large/cursorbat.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/small/cursorbat.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/darkness_plz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/large/darkness_plz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/small/darkness_plz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/drinking_problem.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/large/drinking_problem.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/small/drinking_problem.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/assets/img/fancybox/fancybox_loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/assets/img/fancybox/fancybox_loading@2x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/assets/img/fancybox/fancybox_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/assets/img/fancybox/fancybox_sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/assets/img/fancybox/fancybox_sprite@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/flip_gta4_pff.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/large/flip_gta4_pff.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/small/flip_gta4_pff.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/regal_mofo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/large/regal_mofo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/small/regal_mofo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/zZZzzZz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/large/zZZzzZz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/demo/small/zZZzzZz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/scss/includes/fancybox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/assets/js/jquery.fancybox.pack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/controllers/ProjectController.php" afterPath="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/public/assets/css/all.min.css" afterPath="$PROJECT_DIR$/www/public/assets/css/all.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/public/assets/js/all.min.js" afterPath="$PROJECT_DIR$/www/public/assets/js/all.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/js/main.js" afterPath="$PROJECT_DIR$/www/assets/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/scss/main.scss" afterPath="$PROJECT_DIR$/www/assets/scss/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/views/project.blade.php" afterPath="$PROJECT_DIR$/www/app/views/project.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -64,8 +34,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/assets/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1121">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.875" vertical-offset="822" max-vertical-offset="1596">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,17 +45,7 @@
         <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fancybox.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/assets/scss/includes/fancybox.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8114875" vertical-offset="1444" max-vertical-offset="5282">
-              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -111,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.125" vertical-offset="0" max-vertical-offset="475">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.39175257" vertical-offset="0" max-vertical-offset="679">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -124,8 +84,8 @@
       <file leaf-file-name="project.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/views/project.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5416665" vertical-offset="0" max-vertical-offset="361">
-              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state vertical-scroll-proportion="-5.5416665" vertical-offset="0" max-vertical-offset="437">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -188,12 +148,12 @@
         <option value="$PROJECT_DIR$/www/app/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/www/app/views/home.blade.php" />
         <option value="$PROJECT_DIR$/www/app/routes.php" />
-        <option value="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
         <option value="$PROJECT_DIR$/www/app/models/Project.php" />
-        <option value="$PROJECT_DIR$/www/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/www/assets/js/main.js" />
-        <option value="$PROJECT_DIR$/www/app/views/project.blade.php" />
         <option value="$PROJECT_DIR$/www/assets/scss/includes/fancybox.scss" />
+        <option value="$PROJECT_DIR$/www/assets/scss/main.scss" />
+        <option value="$PROJECT_DIR$/www/app/views/project.blade.php" />
+        <option value="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
       </list>
     </option>
   </component>
@@ -473,7 +433,19 @@
       <option name="project" value="LOCAL" />
       <updated>1417284662402</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Gallery works + added fancybox">
+      <created>1417285325528</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1417285325528</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Styles, boi">
+      <created>1417285669938</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1417285669938</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -528,7 +500,9 @@
     <MESSAGE value="Moving on..." />
     <MESSAGE value="Resizing" />
     <MESSAGE value="Resizing works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resizing works" />
+    <MESSAGE value="Gallery works + added fancybox" />
+    <MESSAGE value="Styles, boi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styles, boi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -620,7 +594,7 @@
         <state vertical-scroll-proportion="-5.5416665" vertical-offset="0" max-vertical-offset="608">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <element signature="e#7#37#0#PHP" expanded="true" />
+            <element signature="e#7#37#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,14 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.125" vertical-offset="0" max-vertical-offset="475">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.3333335" vertical-offset="38" max-vertical-offset="836">
@@ -673,10 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/assets/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/www/assets/scss/includes/fancybox.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="1121">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.39175257" vertical-offset="1444" max-vertical-offset="5282">
+          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -684,23 +650,31 @@
     <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="16" />
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.875" vertical-offset="822" max-vertical-offset="1596">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/views/project.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5416665" vertical-offset="0" max-vertical-offset="361">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state vertical-scroll-proportion="-5.5416665" vertical-offset="0" max-vertical-offset="437">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/assets/scss/includes/fancybox.scss">
+    <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8114875" vertical-offset="1444" max-vertical-offset="5282">
-          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.39175257" vertical-offset="0" max-vertical-offset="679">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>

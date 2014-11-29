@@ -11,7 +11,7 @@ class ProjectController extends \BaseController
         ];
 
         return View::make('maintemplate', [
-            'title' => 'Project',
+            'title' => $data['title'],
             'page' => 'project',
             'data' => $data
         ]);
