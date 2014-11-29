@@ -101,9 +101,23 @@ class Project extends Eloquent
                 continue;
             }
 
+            // Make sure we have directories for our resized images
+            $dirForSmall = $myDir . 'small';
+            $dirForLarge = $myDir . 'large';
+
+            if ( ! is_dir($dirForSmall))
+            {
+                mkdir($dirForSmall);
+            }
+
+            if ( ! is_dir($dirForLarge))
+            {
+                mkdir($dirForLarge);
+            }
+
             // Create thumbnails if they don't exist yet
-            $thumbNailPath = $myDir . 'small/' . $file;
-            $gallerySizePath = $myDir . 'large/' . $file;
+            $thumbNailPath = $dirForSmall . '/' . $file;
+            $gallerySizePath = $dirForLarge . '/' . $file;
 
             $thumbNailUrl = URL::to('projects/' . $slug . '/small/' . $file);
             $gallerySizeUrl = URL::to('projects/' . $slug . '/large/' . $file);
