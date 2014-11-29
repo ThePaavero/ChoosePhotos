@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7dc9a4a-58f9-4981-a9f0-49994f42e58a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/models/Project.php" afterPath="$PROJECT_DIR$/www/app/models/Project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/public/assets/js/all.min.js" afterPath="$PROJECT_DIR$/www/public/assets/js/all.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/js/main.js" afterPath="$PROJECT_DIR$/www/assets/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -39,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4864865" vertical-offset="1425" max-vertical-offset="2128">
-              <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="2147">
+              <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -79,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Project.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/app/models/Project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.083334" vertical-offset="2092" max-vertical-offset="3648">
-              <caret line="138" column="39" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.46833578" vertical-offset="2893" max-vertical-offset="3572">
+              <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -135,8 +136,8 @@
         <option value="$PROJECT_DIR$/www/app/database/migrations/2014_11_29_214340_create_photos_table.php" />
         <option value="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
         <option value="$PROJECT_DIR$/www/app/views/project.blade.php" />
-        <option value="$PROJECT_DIR$/www/app/models/Project.php" />
         <option value="$PROJECT_DIR$/www/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/www/app/models/Project.php" />
       </list>
     </option>
   </component>
@@ -504,7 +505,13 @@
       <option name="project" value="LOCAL" />
       <updated>1417300400347</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Closing in... (joojoo)">
+      <created>1417300948084</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1417300948084</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -573,7 +580,8 @@
     <MESSAGE value="Allllllmostttt..t..." />
     <MESSAGE value="Works!" />
     <MESSAGE value="Boing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Boing" />
+    <MESSAGE value="Closing in... (joojoo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Closing in... (joojoo)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -768,14 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/models/Project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.083334" vertical-offset="2092" max-vertical-offset="3648">
-          <caret line="138" column="39" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.041667" vertical-offset="195" max-vertical-offset="874">
@@ -786,8 +786,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4864865" vertical-offset="1425" max-vertical-offset="2128">
-          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="2147">
+          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/models/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46833578" vertical-offset="2893" max-vertical-offset="3572">
+          <caret line="169" column="5" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
           <folding />
         </state>
       </provider>

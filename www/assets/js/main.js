@@ -83,7 +83,7 @@ $(function () {
 
         $.ajax({
             type : 'POST',
-            url : _root + 'project/' + getProjectSlug() + '/update-status',
+            url : _root + 'project/' + projectSlug + '/update-status',
             data : 'project_slug=' + projectSlug + '&filename=' + pictureFilename,
             success : function (response) {
                 if (response === 'ok') {
@@ -97,7 +97,8 @@ $(function () {
 
     var getProjectSlug = function () {
 
-        return ul.attr('data-projectslug');
+        var slug = ul.attr('data-projectslug');
+        return slug;
     };
 
     $('.fancybox').fancybox();
