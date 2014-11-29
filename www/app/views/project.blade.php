@@ -5,8 +5,8 @@
 <ul>
     @foreach($data['images'] as $image)
     <li>
-        <a href='#'>
-            <img src='{{ $image['fullUrl'] }}' alt=''/>
+        <a href='{{ $image['large'] }}'>
+            <img src='{{ $image['thumbnail'] }}' alt=''/>
         </a>
     </li>
     @endforeach

@@ -98,6 +98,9 @@ class Project
             $thumbNailPath = $myDir . 'small/' . $file;
             $gallerySizePath = $myDir . 'large/' . $file;
 
+            $thumbNailUrl = URL::to('projects/' . $slug . '/small/' . $file);
+            $gallerySizeUrl = URL::to('projects/' . $slug . '/large/' . $file);
+
             if ( ! file_exists($thumbNailPath))
             {
                 $image = $manager->make($fullPath)->resize(300, null, function ($constraint)
@@ -120,7 +123,9 @@ class Project
             $images[] = [
                 'fullPath' => $fullPath,
                 'filename' => $file,
-                'fullUrl' => $fullUrl
+                'fullUrl' => $fullUrl,
+                'thumbnail' => $thumbNailUrl,
+                'large' => $gallerySizeUrl
             ];
         }
 
