@@ -18,7 +18,7 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('styles', function () {
-    return gulp.src(paths.scss)
+    return gulp.src('assets/scss/main.scss')
         .pipe(sass())
         .pipe(cssmin())
         .pipe(concat('all.min.css'))

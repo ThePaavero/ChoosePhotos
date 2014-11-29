@@ -1,0 +1,16 @@
+.clearfix, .clear, .wrapper {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin clear {
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

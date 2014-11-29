@@ -1,1 +1,2 @@
-<h1>Home :D</h1>
+
+<h1>ChoosePhotos</h1>
