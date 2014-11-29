@@ -10,12 +10,22 @@ class ProjectController extends \BaseController
     }
 
 
-    public function project($slug)
+    public function project($slug = '')
     {
+        $images = $this->project->getPhotosUnderProject($slug);
+
+        if (empty($slug) || empty($images))
+        {
+            return Response::make(View::make('maintemplate', [
+                'title' => 'Project not found',
+                'page' => 'project_404'
+            ]), 404);
+        }
+
         $data = [
             'slug' => $slug,
             'title' => ucfirst($slug),
-            'images' => $this->project->getPhotosUnderProject($slug)
+            'images' => $images
         ];
 
         return View::make('maintemplate', [

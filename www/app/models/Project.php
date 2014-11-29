@@ -75,6 +75,12 @@ class Project extends Eloquent
 
         $images = [];
         $myDir = $this->rootDir . $slug . '/';
+
+        if ( ! is_dir($myDir))
+        {
+            return false;
+        }
+
         $files = scandir($myDir);
 
         foreach ($files as $file)
@@ -138,7 +144,7 @@ class Project extends Eloquent
 
     public function updatePictureStatus($projectSlug, $imageFilename)
     {
-        $hashThis= $projectSlug . '/' . $imageFilename;
+        $hashThis = $projectSlug . '/' . $imageFilename;
         $photoHash = md5($hashThis);
 
         // Do we have a database row?

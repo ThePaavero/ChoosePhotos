@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7dc9a4a-58f9-4981-a9f0-49994f42e58a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/public/assets/js/all.min.js" afterPath="$PROJECT_DIR$/www/public/assets/js/all.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/js/main.js" afterPath="$PROJECT_DIR$/www/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/app/views/project_404.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/models/Project.php" afterPath="$PROJECT_DIR$/www/app/models/Project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/controllers/ProjectController.php" afterPath="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/public/assets/css/all.min.css" afterPath="$PROJECT_DIR$/www/public/assets/css/all.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/assets/scss/main.scss" afterPath="$PROJECT_DIR$/www/assets/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/routes.php" afterPath="$PROJECT_DIR$/www/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="choosephotos.iws" />
@@ -32,18 +36,18 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/assets/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.041667" vertical-offset="689" max-vertical-offset="2299">
-              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+            <state vertical-scroll-proportion="-10.083333" vertical-offset="689" max-vertical-offset="2280">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.601707" vertical-offset="1249" max-vertical-offset="2223">
-              <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1249" max-vertical-offset="2223">
+              <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -52,18 +56,38 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1666667" vertical-offset="0" max-vertical-offset="209">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="42" />
+            <state vertical-scroll-proportion="-2.375" vertical-offset="0" max-vertical-offset="209">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.041667" vertical-offset="195" max-vertical-offset="874">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.3843888" vertical-offset="176" max-vertical-offset="1064">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/vendor/laravel/framework/src/Illuminate/View/View.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.166667" vertical-offset="3195" max-vertical-offset="7429">
+              <caret line="187" column="69" selection-start-line="187" selection-start-column="69" selection-end-line="187" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project_404.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/views/project_404.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="114">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -82,8 +106,8 @@
       <file leaf-file-name="Project.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/models/Project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0" vertical-offset="2912" max-vertical-offset="3591">
-              <caret line="176" column="32" selection-start-line="176" selection-start-column="32" selection-end-line="176" selection-end-column="32" />
+            <state vertical-scroll-proportion="-14.958333" vertical-offset="1180" max-vertical-offset="3705">
+              <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -128,15 +152,17 @@
         <option value="$PROJECT_DIR$/www/app/views/home.blade.php" />
         <option value="$PROJECT_DIR$/www/assets/scss/includes/fancybox.scss" />
         <option value="$PROJECT_DIR$/www/app/views/maintemplate.blade.php" />
-        <option value="$PROJECT_DIR$/www/app/routes.php" />
-        <option value="$PROJECT_DIR$/www/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/www/app/config/app.php" />
         <option value="982877f9/scratch" />
         <option value="$PROJECT_DIR$/www/app/database/migrations/2014_11_29_214340_create_photos_table.php" />
-        <option value="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
         <option value="$PROJECT_DIR$/www/app/views/project.blade.php" />
-        <option value="$PROJECT_DIR$/www/app/models/Project.php" />
         <option value="$PROJECT_DIR$/www/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/www/assets/scss/main.scss" />
+        <option value="$PROJECT_DIR$/www/app/routes.php" />
+        <option value="$PROJECT_DIR$/www/app/models/Project.php" />
+        <option value="$PROJECT_DIR$/www/app/views/404.blade.php" />
+        <option value="$PROJECT_DIR$/www/app/views/project_404.blade.php" />
+        <option value="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
       </list>
     </option>
   </component>
@@ -290,6 +316,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="choosephotos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="choosephotos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,7 +576,13 @@
       <option name="project" value="LOCAL" />
       <updated>1417301988746</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Also, roll.">
+      <created>1417302106287</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1417302106287</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -601,7 +655,8 @@
     <MESSAGE value="My md5() logic is fucked" />
     <MESSAGE value="md5 logic fixed" />
     <MESSAGE value="Rock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rock" />
+    <MESSAGE value="Also, roll." />
+    <option name="LAST_COMMIT_MESSAGE" value="Also, roll." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -722,14 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/assets/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.041667" vertical-offset="689" max-vertical-offset="2299">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/config/local/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33578792" vertical-offset="0" max-vertical-offset="679">
@@ -788,34 +835,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
+    <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.041667" vertical-offset="195" max-vertical-offset="874">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1249" max-vertical-offset="2223">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/assets/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.083333" vertical-offset="689" max-vertical-offset="2280">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1666667" vertical-offset="0" max-vertical-offset="209">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="42" />
+        <state vertical-scroll-proportion="-2.375" vertical-offset="0" max-vertical-offset="209">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/app/models/Project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0" vertical-offset="2912" max-vertical-offset="3591">
-          <caret line="176" column="32" selection-start-line="176" selection-start-column="32" selection-end-line="176" selection-end-column="32" />
+        <state vertical-scroll-proportion="-14.958333" vertical-offset="1180" max-vertical-offset="3705">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/assets/js/main.js">
+    <entry file="file://$PROJECT_DIR$/www/app/views/project_404.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.601707" vertical-offset="1249" max-vertical-offset="2223">
-          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="114">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/vendor/laravel/framework/src/Illuminate/View/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.166667" vertical-offset="3195" max-vertical-offset="7429">
+          <caret line="187" column="69" selection-start-line="187" selection-start-column="69" selection-end-line="187" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3843888" vertical-offset="176" max-vertical-offset="1064">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
