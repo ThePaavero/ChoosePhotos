@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7dc9a4a-58f9-4981-a9f0-49994f42e58a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/large/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/small/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/large/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/small/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/large/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/small/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/large/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/small/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/large/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/small/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/large/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/small/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/large/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/small/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/large/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/small/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/large/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/public/projects/kakki/small/9.jpg" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\npm-debug.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/.gitignore" afterPath="$PROJECT_DIR$/www/.gitignore" />
+    <list default="true" id="c7dc9a4a-58f9-4981-a9f0-49994f42e58a" name="Default" comment="Ignore crap">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screenshot1.png" />
+      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\.idea\choosephotos.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\.idea\watcherTasks.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="choosephotos.iws" />
@@ -213,7 +192,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -633,7 +612,13 @@
       <option name="project" value="LOCAL" />
       <updated>1417303263929</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Ignore crap">
+      <created>1417303831645</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1417303831645</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -682,7 +667,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Moving on..." />
     <MESSAGE value="Resizing" />
     <MESSAGE value="Resizing works" />
     <MESSAGE value="Gallery works + added fancybox" />
@@ -707,7 +691,8 @@
     <MESSAGE value="404 for invalid project slugs" />
     <MESSAGE value="Adding table migration" />
     <MESSAGE value="Shit's working nicely" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shit's working nicely" />
+    <MESSAGE value="Ignore crap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignore crap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
