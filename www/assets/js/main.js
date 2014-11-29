@@ -4,7 +4,7 @@ $(function () {
 
     var ul = $('ul');
     var wrappers = ul.find('li .thumbnail-wrapper');
-    var links = ul.find('li a.accept-link, ul li a.reject-link');
+    var links = ul.find('li a.accept-link, li a.reject-link');
 
     var refreshImagePropertiesByStatus = function () {
 
@@ -71,11 +71,13 @@ $(function () {
     var makeImagesClickable = function () {
 
         wrappers.on('click', function (e) {
+
             e.preventDefault();
             toggleImageStatus($(this));
         });
 
         links.on('click', function (e) {
+
             e.preventDefault();
             toggleImageStatus($(this).parent().find('.thumbnail-wrapper'));
         });
