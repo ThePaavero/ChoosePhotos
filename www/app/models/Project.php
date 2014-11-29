@@ -121,7 +121,7 @@ class Project extends Eloquent
                 $image->save($gallerySizePath, 90);
             }
 
-            $photoHash = md5($this->rootDir . $slug . '/' . $file);
+            $photoHash = md5($slug . '/' . $file);
 
             $images[] = [
                 'fullPath' => $fullPath,
