@@ -44,6 +44,7 @@ h4 {
     float: left;
     margin-right: 20px;
     width: 300px;
+    max-width: 90%;
     margin-bottom: 20px;
     background: #f0f0f0;
     overflow: hidden;
@@ -55,10 +56,20 @@ h4 {
       overflow: hidden;
       position: relative;
       overflow: hidden;
-      background: #e5e5e5;
+
       cursor: pointer;
 
+      &.accepted {
+
+        img {
+          border: solid 5px #0abc15;
+        }
+      }
+
       img {
+        border: solid 5px #bc4780;
+        max-width: 96.5%;
+        max-height: 95%;
       }
     }
 
