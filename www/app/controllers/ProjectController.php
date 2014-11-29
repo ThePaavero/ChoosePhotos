@@ -6,6 +6,7 @@ class ProjectController extends \BaseController
     {
         $project = new Project;
         $data = [
+            'slug' => $slug,
             'title' => ucfirst($slug),
             'images' => $project->getSingleInstance($slug)
         ];
@@ -19,6 +20,7 @@ class ProjectController extends \BaseController
 
     public function updatePictureStatus()
     {
+        $projectSlug = Input::get('project_slug');
         $imageFilename = Input::get('filename');
 
 //        die($imageFilename);

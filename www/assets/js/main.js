@@ -40,8 +40,9 @@ $(function () {
     var switchStatusToAccepted = function (wrapper) {
 
         var pictureFilename = wrapper.find('img').attr('src');
+        var projectSlug = getProjectSlug();
 
-        updateStatusOnServer(pictureFilename, true, function () {
+        updateStatusOnServer(projectSlug, pictureFilename, true, function () {
             wrapper.addClass('accepted');
             wrapper.attr('data-accepted', 'yes');
             wrapper.parent().find('a.accept-link').hide();
@@ -53,8 +54,9 @@ $(function () {
     var switchStatusToRejected = function (wrapper) {
 
         var pictureFilename = wrapper.find('img').attr('src');
+        var projectSlug = getProjectSlug();
 
-        updateStatusOnServer(pictureFilename, false, function () {
+        updateStatusOnServer(projectSlug, pictureFilename, false, function () {
             wrapper.removeClass('accepted');
             wrapper.attr('data-accepted', 'no');
             wrapper.parent().find('a.accept-link').show();
@@ -76,12 +78,12 @@ $(function () {
         });
     };
 
-    var updateStatusOnServer = function (pictureFilename, bool, callback) {
+    var updateStatusOnServer = function (projectSlug, pictureFilename, bool, callback) {
 
         $.ajax({
             type : 'POST',
             url : _root + 'project/' + getProjectSlug() + '/update-status',
-            data : 'filename=' + pictureFilename,
+            data : 'project_slug=' + projectSlug + '&filename=' + pictureFilename,
             success : function (response) {
                 if (response === 'ok') {
                     return callback();

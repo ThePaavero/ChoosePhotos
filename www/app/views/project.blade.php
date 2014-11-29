@@ -2,7 +2,7 @@
 
 {{--{{ dd($data) }}--}}
 
-<ul class='gallery'>
+<ul class='gallery' data-projectSlug='{{ $data['slug'] }}'>
     @foreach($data['images'] as $image)
     <li>
         <div class='thumbnail-wrapper' data-accepted='{{ $image['accepted'] }}'>
