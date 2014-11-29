@@ -141,19 +141,20 @@ class Project extends Eloquent
         $fileSpecificHash = md5($targetFile);
 
         // Do we have a database row?
-        $row = self::where('hash', '=', $fileSpecificHash)->get()->toArray()[0];
+        $rowObject = self::where('hash', '=', $fileSpecificHash)->first();
 
         // Yes, get our current status
-        if ( ! empty($row))
+        if ( ! is_null($rowObject))
         {
-            $accepted = $row['accepted'];
+            $rowResult = $rowObject->get();
+            $rowArray = $rowResult->toArray()[0];
+            $accepted = $rowArray['accepted'];
 
             // Flip it
             $newStatus = ! $accepted;
 
-            $instance = new self;
-            $instance->accepted = $newStatus;
-            $instance->save();
+            $rowObject->accepted = $newStatus;
+            $rowObject->save();
         }
         else
         {
