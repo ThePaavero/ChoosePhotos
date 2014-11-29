@@ -25,22 +25,72 @@ class Project
                 continue;
             }
 
+            $projects[] = $rawDir;
+
             $files = scandir($dir);
 
             $zipPath = '';
 
-            foreach($files as $file)
+            // See if we have a zip file
+            foreach ($files as $file)
             {
-                // Get our ZIP file
-                if(strstr($file, '.zip'))
+                if (strstr($file, '.zip'))
                 {
                     $zipPath = $dir . $file;
                 }
+            }
 
-                echo $zipPath;
+            if ($zipPath !== '')
+            {
+                // Yes we do, unzip it
+                $zip = new ZipArchive;
+                $res = $zip->open($zipPath);
+
+                if ($res === true)
+                {
+                    $zip->extractTo($dir);
+                    $zip->close();
+                }
+                else
+                {
+                    throw new Exception('ZIP file found, but could not unzip it!');
+                }
             }
         }
 
         return $projects;
+    }
+
+    public function getSingleInstance($slug)
+    {
+        $formats = ['jpg', 'png', 'gif'];
+
+        $images = [];
+        $myDir = $this->rootDir . $slug . '/';
+        $files = scandir($myDir);
+
+        foreach ($files as $file)
+        {
+            $fullPath = $myDir . $file;
+
+            if ( ! file_exists($fullPath) || is_dir($fullPath))
+            {
+                continue;
+            }
+
+            $bits = explode('.', $file);
+            $fileFormat = end($bits);
+            if ( ! in_array($fileFormat, $formats))
+            {
+                continue;
+            }
+
+            $images[] = [
+                'fullPath' => $fullPath,
+                'filename' => $file
+            ];
+        }
+
+        return $images;
     }
 }
