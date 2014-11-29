@@ -10,13 +10,18 @@ $(function () {
         wrappers.each(function () {
 
             var wrapper = $(this);
-            var currentStatus = wrapper.data('accepted') === 'yes';
             var container = wrapper.parent();
+            var currentStatus = wrapper.attr('data-accepted');
+            console.log(currentStatus);
 
-            if (currentStatus) {
+            if (currentStatus === 'yes') {
                 container.addClass('accepted');
+                container.find('a.accept-link').hide();
+                container.find('a.reject-link').show();
             } else {
                 container.removeClass('accepted');
+                container.find('a.accept-link').show();
+                container.find('a.reject-link').hide();
             }
         });
     };
@@ -39,6 +44,8 @@ $(function () {
         updateStatusOnServer(pictureFilename, true, function () {
             wrapper.addClass('accepted');
             wrapper.attr('data-accepted', 'yes');
+            wrapper.parent().find('a.accept-link').hide();
+            wrapper.parent().find('a.reject-link').show();
             console.log('Satus changed to "accepted"');
         });
     };
@@ -50,6 +57,8 @@ $(function () {
         updateStatusOnServer(pictureFilename, false, function () {
             wrapper.removeClass('accepted');
             wrapper.attr('data-accepted', 'no');
+            wrapper.parent().find('a.accept-link').show();
+            wrapper.parent().find('a.reject-link').hide();
             console.log('Satus changed to "rejected"');
         });
     };
