@@ -5,9 +5,11 @@
 <ul class='gallery'>
     @foreach($data['images'] as $image)
     <li>
-        <a href='{{ $image['large'] }}' class='fancybox'>
+        <div class='thumbnail-wrapper'>
             <img src='{{ $image['thumbnail'] }}' alt=''/>
-        </a>
+        </div><!-- thumbnail-wrapper -->
+
+        <a href='{{ $image['large'] }}' class='larger-link fancybox'>Larger</a>
     </li>
     @endforeach
 </ul>

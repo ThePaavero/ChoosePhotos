@@ -41,14 +41,30 @@ h4 {
 .gallery {
   li {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
     width: 300px;
-    height: 200px;
-    overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
-    img {
+    .thumbnail-wrapper {
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
 
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+
+    a.larger-link {
+      display: inline-block;
+      padding: 5px;
+      font-size: 10px;
+      margin-top: 5px;
+      background: #275abc;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 3px;
     }
   }
 }
