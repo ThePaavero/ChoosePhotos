@@ -15,7 +15,7 @@ class ProjectController extends \BaseController
         $data = [
             'slug' => $slug,
             'title' => ucfirst($slug),
-            'images' => $this->project->getSingleInstance($slug)
+            'images' => $this->project->getPhotosUnderProject($slug)
         ];
 
         return View::make('maintemplate', [

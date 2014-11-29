@@ -67,7 +67,7 @@ class Project extends Eloquent
         return $projects;
     }
 
-    public function getSingleInstance($slug)
+    public function getPhotosUnderProject($slug)
     {
         $manager = new ImageManager(array ('driver' => 'GD'));
 
@@ -143,27 +143,25 @@ class Project extends Eloquent
         // Do we have a database row?
         $rowObject = self::where('hash', '=', $fileSpecificHash)->first();
 
-        // Yes, get our current status
         if ( ! is_null($rowObject))
         {
-            $rowResult = $rowObject->get();
-            $rowArray = $rowResult->toArray()[0];
-            $accepted = $rowArray['accepted'];
+            // Yes, get our current status
+            $accepted = $rowObject->accepted;
 
             // Flip it
             $newStatus = ! $accepted;
 
             $rowObject->accepted = $newStatus;
             $rowObject->save();
+
+            return true;
         }
-        else
-        {
-            // No? Create one with a default status of false
-            $instance = new self;
-            $instance->hash = $fileSpecificHash;
-            $instance->accepted = false;
-            $instance->save();
-        }
+
+        // No? Create one with a default status of false
+        $instance = new self;
+        $instance->hash = $fileSpecificHash;
+        $instance->accepted = false;
+        $instance->save();
 
         return true;
     }
