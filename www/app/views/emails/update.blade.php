@@ -1,5 +1,6 @@
+
 <h1>Update on your project</h1>
 
 <p>
-    <a href="{{ $data['url'] }}">Check it out</a>
+    Check it out <a href="{{ $data['url'] }}">here</a>.
 </p>

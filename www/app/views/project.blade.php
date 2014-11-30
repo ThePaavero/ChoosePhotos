@@ -20,7 +20,9 @@
 <div class='client-tools-wrapper wrapper clear'>
     <nav>
     	<ul>
-    		<li><a href='{{ URL::to('notify-of-update/' . $data['slug']) }}'>Send en email about status updates</a></li>
+    		<li>
+    		    <button href='{{ URL::to('notify-of-update/' . $data['slug']) }}' class='send-email-link'>Send en email about status updates</button>
+    		</li>
     	</ul>
     </nav>
 </div>

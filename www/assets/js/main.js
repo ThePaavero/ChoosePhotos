@@ -85,11 +85,16 @@ $(function () {
 
     var updateStatusOnServer = function (projectSlug, pictureFilename, bool, callback) {
 
+        NProgress.start();
+
         $.ajax({
             type : 'POST',
             url : _root + 'project/' + projectSlug + '/update-status',
             data : 'project_slug=' + projectSlug + '&filename=' + pictureFilename,
             success : function (response) {
+
+                NProgress.done();
+
                 if (response === 'ok') {
                     return callback();
                 }
@@ -105,8 +110,40 @@ $(function () {
         return slug;
     };
 
+    var listenForEmailLinks = function () {
+
+        var links = $('.send-email-link');
+
+        links.on('click', function (e) {
+
+            e.preventDefault();
+            var link = $(this);
+            NProgress.start();
+            link.attr('disabled', true);
+
+            $.ajax({
+                url : link.attr('href'),
+                success : function (response) {
+
+                    NProgress.done();
+
+                    if (response === 'ok') {
+                        console.log('Yeah!');
+                    } else {
+                        alert(response);
+                    }
+
+                    setTimeout(function () {
+                        link.attr('disabled', false);
+                    }, 1000);
+                }
+            });
+        });
+    };
+
     $('.fancybox').fancybox();
 
     refreshImagePropertiesByStatus();
     makeImagesClickable();
+    listenForEmailLinks();
 });
