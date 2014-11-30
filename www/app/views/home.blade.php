@@ -5,10 +5,10 @@
 
 {{--{{ dd($projects) }}--}}
 
-<ul>
+<ul class='admin-list-of-projects'>
     @foreach($projects as $slug)
     <li>
-        <a href='{{ URL::to('project/' . $slug) }}'>{{ $slug }}</a>
+        <a href='{{ URL::to('project/' . $slug) }}'>{{ ucfirst($slug) }}</a>
     </li>
     @endforeach
-</ul>
+</ul><!-- admin-list-of-projects -->

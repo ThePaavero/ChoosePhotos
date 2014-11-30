@@ -49,12 +49,26 @@ class Project extends Eloquent
                 $zip = new ZipArchive;
                 $res = $zip->open($zipPath);
 
+                // Make sure we have directories for our resized images
+                $dirForSmall = $dir . 'small';
+                $dirForLarge = $dir . 'large';
+
+                if ( ! is_dir($dirForSmall))
+                {
+                    mkdir($dirForSmall);
+                }
+
+                if ( ! is_dir($dirForLarge))
+                {
+                    mkdir($dirForLarge);
+                }
+
                 if ($res === true)
                 {
                     $zip->extractTo($dir);
                     $zip->close();
 
-                    // We don't want the ZIP file to exist anymore, delete it
+                    // We don't want the ZIP file to exist anymore; delete it
                     unlink($zipPath);
                 }
                 else
@@ -101,19 +115,8 @@ class Project extends Eloquent
                 continue;
             }
 
-            // Make sure we have directories for our resized images
             $dirForSmall = $myDir . 'small';
             $dirForLarge = $myDir . 'large';
-
-            if ( ! is_dir($dirForSmall))
-            {
-                mkdir($dirForSmall);
-            }
-
-            if ( ! is_dir($dirForLarge))
-            {
-                mkdir($dirForLarge);
-            }
 
             // Create thumbnails if they don't exist yet
             $thumbNailPath = $dirForSmall . '/' . $file;
@@ -131,6 +134,7 @@ class Project extends Eloquent
 
                 $image->save($thumbNailPath, 80);
             }
+
             if ( ! file_exists($gallerySizePath))
             {
                 $image = $manager->make($fullPath)->resize(1280, null, function ($constraint)
