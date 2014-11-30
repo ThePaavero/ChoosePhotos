@@ -59,7 +59,7 @@ class ProjectController extends \BaseController
         Mail::send('emails.update', ['data' => $data], function ($message)
         {
             $to = Config::get('mail.sendNotificationsTo');
-            $message->to($to, 'Pekka')->subject('A client updated a photoshoot');
+            $message->to($to)->subject('A client updated a photoshoot');
         });
 
         return 'ok';
