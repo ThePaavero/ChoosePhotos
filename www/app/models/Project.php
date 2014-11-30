@@ -85,7 +85,7 @@ class Project extends Eloquent
     {
         $manager = new ImageManager(array ('driver' => 'GD'));
 
-        $formats = ['jpg', 'png', 'gif'];
+        $formats = ['jpg', 'png', 'gif', 'JPG', 'PNG', 'GIF'];
 
         $images = [];
         $myDir = $this->rootDir . $slug . '/';
