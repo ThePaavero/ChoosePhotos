@@ -47,4 +47,10 @@ class ProjectController extends \BaseController
 
         return 'error';
     }
+
+    public function notifyOfUpdate($slug)
+    {
+        // TODO
+        return 'ok';
+    }
 }

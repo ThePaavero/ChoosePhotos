@@ -16,3 +16,12 @@
     @endforeach
 </ul>
 <!-- gallery -->
+
+<div class='client-tools-wrapper wrapper clear'>
+    <nav>
+    	<ul>
+    		<li><a href='{{ URL::to('notify-of-update/' . $data['slug']) }}'>Send en email about status updates</a></li>
+    	</ul>
+    </nav>
+</div>
+<!-- client-tools-wrapper wrapper -->

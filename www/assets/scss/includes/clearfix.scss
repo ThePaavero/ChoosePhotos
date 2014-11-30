@@ -1,4 +1,4 @@
-.clearfix, .clear, .wrapper {
+.clearfix, .wrapper {
   &:after {
     content: "";
     display: table;
@@ -13,4 +13,8 @@
     display: table;
     clear: both;
   }
+}
+
+.clear {
+  clear: both;
 }
