@@ -51,10 +51,15 @@ class ProjectController extends \BaseController
     public function notifyOfUpdate($slug)
     {
         // Figure out the URL for this project
-        $url = URL::to('project/' . $slug);
+        $data = [
+            'url' => URL::to('project/' . $slug)
+        ];
 
         // Send an email about it
-        die($url);
+        Mail::send('emails.update', ['data' => $data], function ($message)
+        {
+            $message->to('pekka@astudios.org', 'Pekka')->subject('Hey!!');
+        });
 
         return 'ok';
     }
