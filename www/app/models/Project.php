@@ -45,40 +45,47 @@ class Project extends Eloquent
 
             if ($zipPath !== '')
             {
-                // Yes we do, unzip it
-                $zip = new ZipArchive;
-                $res = $zip->open($zipPath);
-
-                // Make sure we have directories for our resized images
-                $dirForSmall = $dir . 'small';
-                $dirForLarge = $dir . 'large';
-
-                if ( ! is_dir($dirForSmall))
-                {
-                    mkdir($dirForSmall);
-                }
-
-                if ( ! is_dir($dirForLarge))
-                {
-                    mkdir($dirForLarge);
-                }
-
-                if ($res === true)
-                {
-                    $zip->extractTo($dir);
-                    $zip->close();
-
-                    // We don't want the ZIP file to exist anymore; delete it
-                    unlink($zipPath);
-                }
-                else
-                {
-                    throw new Exception('ZIP file found, but could not unzip it!');
-                }
+                // Yes we do, boot up a new project
+                $this->processNewProject($zipPath, $dir);
             }
         }
 
         return $projects;
+    }
+
+    public function processNewProject($zipPath, $dir)
+    {
+        $zip = new ZipArchive;
+        $res = $zip->open($zipPath);
+
+        // Make sure we have directories for our resized images
+        $dirForSmall = $dir . 'small';
+        $dirForLarge = $dir . 'large';
+
+        if ( ! is_dir($dirForSmall))
+        {
+            mkdir($dirForSmall);
+        }
+
+        if ( ! is_dir($dirForLarge))
+        {
+            mkdir($dirForLarge);
+        }
+
+        if ($res === true)
+        {
+            $zip->extractTo($dir);
+            $zip->close();
+
+            // We don't want the ZIP file to exist anymore; delete it
+            unlink($zipPath);
+        }
+        else
+        {
+            throw new Exception('ZIP file found, but could not unzip it!');
+        }
+
+        return true;
     }
 
     public function getPhotosUnderProject($slug)
