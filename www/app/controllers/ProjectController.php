@@ -10,17 +10,29 @@ class ProjectController extends \BaseController
     }
 
 
-    public function project($slug = '')
+    public function project($slug = '', $token = '')
     {
-        $images = $this->project->getPhotosUnderProject($slug);
+        $gallery = Gallery::where('dir', '=', $slug)->get();
 
-        if (empty($slug) || empty($images))
+        if (is_null($gallery))
         {
             return Response::make(View::make('maintemplate', [
                 'title' => 'Project not found',
                 'page' => 'project_404'
             ]), 404);
         }
+
+        $gallery = $gallery->first();
+
+        // Check the token
+        $correctToken = $gallery->token;
+
+        if($token !== $correctToken)
+        {
+            App::abort(403, 'Faulty token.');
+        }
+
+        $images = $this->project->getPhotosUnderProject($slug);
 
         $data = [
             'slug' => $slug,

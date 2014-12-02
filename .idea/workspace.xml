@@ -1,128 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7dc9a4a-58f9-4981-a9f0-49994f42e58a" name="Default" comment="Refactoring...">
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4135.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4136.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4137.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4138.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4139.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4140.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4141.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4142.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4143.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4144.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4145.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4146.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\IMG_4147.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4135.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4136.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4137.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4138.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4139.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4140.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4141.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4142.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4143.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4144.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4145.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4146.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\large\IMG_4147.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4135.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4136.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4137.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4138.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4139.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4140.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4141.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4142.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4143.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4144.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4145.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4146.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\belsebub\small\IMG_4147.JPG" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\bats_crave_attention.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\cursorbat.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\darkness_plz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\drinking_problem.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\flip_gta4_pff.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\large\bats_crave_attention.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\large\cursorbat.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\large\darkness_plz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\large\drinking_problem.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\large\flip_gta4_pff.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\large\regal_mofo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\large\zZZzzZz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\regal_mofo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\small\bats_crave_attention.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\small\cursorbat.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\small\darkness_plz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\small\drinking_problem.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\small\flip_gta4_pff.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\small\regal_mofo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\small\zZZzzZz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\demo\zZZzzZz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\large\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\large\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\large\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\large\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\large\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\large\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\large\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\large\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\large\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\small\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\small\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\small\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\small\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\small\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\small\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\small\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\small\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\kakki\small\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\large\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\Laravel\Apps\choosephotos\www\public\projects\shit\small\9.jpg" afterPath="" />
+    <list default="true" id="c7dc9a4a-58f9-4981-a9f0-49994f42e58a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/models/Project.php" afterPath="$PROJECT_DIR$/www/app/models/Project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/controllers/ProjectController.php" afterPath="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/app/routes.php" afterPath="$PROJECT_DIR$/www/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="choosephotos.iws" />
@@ -148,31 +30,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.25" vertical-offset="95" max-vertical-offset="1387">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.62668663" vertical-offset="190" max-vertical-offset="1615">
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/controllers/HomeController.php">
+      <file leaf-file-name="start.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/bootstrap/start.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5416665" vertical-offset="0" max-vertical-offset="437">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state vertical-scroll-proportion="-15.833333" vertical-offset="0" max-vertical-offset="1330">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Project.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/models/Project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65817094" vertical-offset="644" max-vertical-offset="4712">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state vertical-scroll-proportion="-20.291666" vertical-offset="1071" max-vertical-offset="5016">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galleryCreated.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/views/emails/galleryCreated.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="228">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.5416665" vertical-offset="0" max-vertical-offset="304">
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/app/views/emails/update.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="228">
+              <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -200,26 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/app/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.458333" vertical-offset="0" max-vertical-offset="437">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Migrator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.25" vertical-offset="5459" max-vertical-offset="7391">
-              <caret line="300" column="26" selection-start-line="300" selection-start-column="26" selection-end-line="300" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2014_11_30_010631_create_users_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/app/database/migrations/2014_11_30_010631_create_users_table.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -237,16 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.708333" vertical-offset="0" max-vertical-offset="551">
               <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/vendor/intervention/image/src/Intervention/Image/ImageManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.0" vertical-offset="19" max-vertical-offset="2261">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -284,7 +166,6 @@
         <option value="$PROJECT_DIR$/www/app/database/migrations/2014_11_30_010631_create_users_table.php" />
         <option value="$PROJECT_DIR$/www/app/database/migrations/2014_11_30_011345_seed_users_table.php" />
         <option value="$PROJECT_DIR$/www/assets/scss/includes/clearfix.scss" />
-        <option value="$PROJECT_DIR$/www/app/routes.php" />
         <option value="$PROJECT_DIR$/www/app/storage/logs/laravel.log" />
         <option value="$PROJECT_DIR$/www/app/config/mail.php" />
         <option value="$PROJECT_DIR$/www/.gitignore" />
@@ -296,11 +177,14 @@
         <option value="$PROJECT_DIR$/www/assets/js/main.js" />
         <option value="$PROJECT_DIR$/www/app/views/emails/update.blade.php" />
         <option value="$PROJECT_DIR$/www/app/config/local/mail.php" />
-        <option value="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
         <option value="$PROJECT_DIR$/www/app/database/migrations/2014_11_29_214340_create_photos_table.php" />
         <option value="$PROJECT_DIR$/www/app/database/migrations/2014_11_29_214340_create_galleries_table.php" />
         <option value="$PROJECT_DIR$/www/app/models/Gallery.php" />
         <option value="$PROJECT_DIR$/www/app/models/Project.php" />
+        <option value="$PROJECT_DIR$/www/app/views/emails/galleryCreated.blade.php" />
+        <option value="$PROJECT_DIR$/www/app/routes.php" />
+        <option value="$PROJECT_DIR$/www/bootstrap/start.php" />
+        <option value="$PROJECT_DIR$/www/app/controllers/ProjectController.php" />
       </list>
     </option>
   </component>
@@ -1121,7 +1005,13 @@
       <option name="project" value="LOCAL" />
       <updated>1417547783385</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="More refactoring...">
+      <created>1417548817955</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1417548817955</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1170,7 +1060,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Works!" />
     <MESSAGE value="Boing" />
     <MESSAGE value="Closing in... (joojoo)" />
     <MESSAGE value="My md5() logic is fucked" />
@@ -1195,7 +1084,8 @@
     <MESSAGE value="Removed placeholder name" />
     <MESSAGE value="Moved project processing to its own method" />
     <MESSAGE value="Refactoring..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring..." />
+    <MESSAGE value="More refactoring..." />
+    <option name="LAST_COMMIT_MESSAGE" value="More refactoring..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1379,14 +1269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/views/emails/update.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1666667" vertical-offset="0" max-vertical-offset="228">
-          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/config/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="66.791664" vertical-offset="1926" max-vertical-offset="2489">
@@ -1475,14 +1357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9166665" vertical-offset="0" max-vertical-offset="304">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.4583335" vertical-offset="140" max-vertical-offset="1653">
@@ -1499,22 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/bootstrap/start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.416667" vertical-offset="428" max-vertical-offset="1330">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.25" vertical-offset="95" max-vertical-offset="1387">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5416665" vertical-offset="0" max-vertical-offset="437">
@@ -1527,14 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.0" vertical-offset="19" max-vertical-offset="2261">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/database/migrations/2014_11_29_214340_create_photos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.708333" vertical-offset="0" max-vertical-offset="551">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1563,16 +1413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/app/database/migrations/2014_11_30_010631_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5833334" vertical-offset="0" max-vertical-offset="570">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding>
-            <element signature="e#7#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/database/migrations/2014_11_29_214340_create_galleries_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="570">
@@ -1591,10 +1431,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/database/migrations/2014_11_30_010631_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5833334" vertical-offset="0" max-vertical-offset="570">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding>
+            <element signature="e#7#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/database/migrations/2014_11_29_214340_create_photos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.708333" vertical-offset="0" max-vertical-offset="551">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/views/emails/update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="228">
+          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/app/models/Project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65817094" vertical-offset="644" max-vertical-offset="4712">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state vertical-scroll-proportion="-20.291666" vertical-offset="1071" max-vertical-offset="5016">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/views/emails/galleryCreated.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="228">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5416665" vertical-offset="0" max-vertical-offset="304">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/bootstrap/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.833333" vertical-offset="0" max-vertical-offset="1330">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/app/controllers/ProjectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62668663" vertical-offset="190" max-vertical-offset="1615">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding />
         </state>
       </provider>

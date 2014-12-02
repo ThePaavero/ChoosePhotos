@@ -56,14 +56,30 @@ class Project extends Eloquent
 
     public function createGallery($slug)
     {
+        $token = md5(str_random(32));
+
         $gallery = new Gallery;
 
         $gallery->fill([
             'dir' => $slug,
-            'token' => '123'
+            'token' => $token
         ]);
 
         $gallery->save();
+
+        $data = [
+            'slug' => $slug,
+            'token' => $token,
+            'url' => URL::to('project/' . $slug . '/' . $token),
+        ];
+
+        // Email this new information to the photographer
+        Mail::send('emails.galleryCreated', ['data' => $data], function ($message) use($slug)
+        {
+            $to = Config::get('mail.sendNotificationsTo');
+            $message->to($to)->subject('Photoshoot "' . $slug . '" created');
+        });
+
 
         return $gallery->id;
     }
