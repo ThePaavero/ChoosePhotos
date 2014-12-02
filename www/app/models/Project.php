@@ -55,10 +55,38 @@ class Project extends Eloquent
 
     public function processNewProject($zipPath, $dir)
     {
+        // Open up our ZIP file
+        $this->processZipFile($zipPath, $dir);
+
+        // Make sure we have directories for our resized images
+        $this->createResizedPictureDirs($dir);
+
+        // Create a random password
+        $password = \Illuminate\Support\Str::random(20);
+
+        return true;
+    }
+
+    public function processZipFile($zipPath, $dir)
+    {
         $zip = new ZipArchive;
         $res = $zip->open($zipPath);
 
-        // Make sure we have directories for our resized images
+        if ( ! $res)
+        {
+            // Something's wrong with the ZIP file, bail
+            throw new Exception('ZIP file found, but could not unzip it!');
+        }
+
+        $zip->extractTo($dir);
+        $zip->close();
+
+        // We don't want the ZIP file to exist anymore; delete it
+        unlink($zipPath);
+    }
+
+    public function createResizedPictureDirs($dir)
+    {
         $dirForSmall = $dir . 'small';
         $dirForLarge = $dir . 'large';
 
@@ -71,21 +99,6 @@ class Project extends Eloquent
         {
             mkdir($dirForLarge);
         }
-
-        if ($res === true)
-        {
-            $zip->extractTo($dir);
-            $zip->close();
-
-            // We don't want the ZIP file to exist anymore; delete it
-            unlink($zipPath);
-        }
-        else
-        {
-            throw new Exception('ZIP file found, but could not unzip it!');
-        }
-
-        return true;
     }
 
     public function getPhotosUnderProject($slug)
