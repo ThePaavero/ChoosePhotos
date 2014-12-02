@@ -46,11 +46,26 @@ class Project extends Eloquent
             if ($zipPath !== '')
             {
                 // Yes we do, boot up a new project
+                $this->createGallery($rawDir);
                 $this->processNewProject($zipPath, $dir);
             }
         }
 
         return $projects;
+    }
+
+    public function createGallery($slug)
+    {
+        $gallery = new Gallery;
+
+        $gallery->fill([
+            'dir' => $slug,
+            'token' => '123'
+        ]);
+
+        $gallery->save();
+
+        return $gallery->id;
     }
 
     public function processNewProject($zipPath, $dir)
